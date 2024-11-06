@@ -2,6 +2,10 @@
 
 In this project, I built a simple command line interface (CLI) for Redis Pipelines.
 
+Redis Pipelining is a technique that helps minimize RTT in Redis interactions by batching commands.
+
+The time taken for the request to travel from the client to the server and back is called the Round Trip Time (RTT).
+
 Redis Pipelines optimise execution of multiple commands in Redis sequenqually.
 
 
